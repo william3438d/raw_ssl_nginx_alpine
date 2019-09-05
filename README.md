@@ -1,4 +1,7 @@
 # raw_ssl_nginx_alpine
 
-- Empty NGINX image where expose port is set to 443. 
-- NO Certs/Private key and listen on port 443 only. 
+- raw NGINX container based on Alpine
+- Expose port set to 443
+- NGINX listens to port 443 only
+- NO cert/private key generated
+
